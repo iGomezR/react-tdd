@@ -11,7 +11,6 @@ describe('Header Component', () => {
 
     it('Should render without errors', () => {
         const wrapper = setUp();
-        console.log(wrapper.debug());
         expect(wrapper.length).toBe(1);
     });
 
