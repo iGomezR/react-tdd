@@ -30,7 +30,7 @@ describe('Headline Component', () => {
         });
 
         it('Should render with out errors', () => {
-            expect(filterByAtrr(wrapper, 'HeadlineComponent').length).toBe(0);
+            expect(filterByAtrr(wrapper, 'HeadlineComponent').length).toBe(1);
         })
         
     });
