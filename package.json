@@ -128,5 +128,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "husky": "^2.3.0"
   }
 }
